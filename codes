@@ -11,7 +11,7 @@ class CurrencyConverter:
         self.root.geometry("400x300")
 
         # API URL and Key
-        self.api_key = '2317116962e8441696fa1995de622786'  # Replace with your Fixer.io API key
+        self.api_key = 'YOUR_FIXER_API_KEY'  # Replace with your Fixer.io API key
         self.api_url = f"http://data.fixer.io/api/latest?access_key={self.api_key}"
 
         # Fetch exchange rates
